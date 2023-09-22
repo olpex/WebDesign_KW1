@@ -1,0 +1,34 @@
+.parent {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #13268f;
+    flex-direction: rows-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    max-width: fit-content;
+    /* align-items: stretch; */
+
+    
+}
+
+.item1,.item2,.item3 {
+    width: 450px;
+    height: 450px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px;
+    /* padding: 10px; */
+}
+.item1 {
+    background-color: #72c416;
+    flex-grow: 1;
+}
+.item2 {
+    background-color: blue;
+    flex-grow: 10;
+}
+.item3 {
+    background-color: red;
+    flex-grow: 3;
+}

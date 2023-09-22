@@ -1,0 +1,81 @@
+html {
+    font-size: 15px;
+}
+/* p,div {font-size: 16px;
+color:blueviolet;
+text-align: center;
+} */
+/* body {
+    background: rgb(221, 173, 173);
+} */
+
+/* #text-3 {
+    color: black;
+}
+p {
+    color: greenyellow;
+}
+
+.text-1 {
+    color: blueviolet!important;
+}
+/* .text-1 {
+    color: rgb(219, 170, 8); */
+/* } */
+
+
+/* .text-2 {
+    font-size: 36px!important; */
+
+/* main.css */
+/* @import './utilities.css';
+/* Your main CSS code follows here */
+/* .header {
+    background-color: var(--primary-color);
+  }
+  
+  .button {
+    background-color: var(--primary-color);
+    color: white;
+  } */ 
+
+  /* :root {
+    --primary-color: #3498db; /* Blue color */
+  /* }
+
+  .header {
+    background-color: var(--primary-color);
+  }  */
+ body{
+        
+    font-family: 'Montserrat', sans-serif, 'Lobster', cursive, 'Chivo Mono', monospace, 'Nunito Sans', sans-serif;
+    font-weight: 400;
+ }
+ 
+@import './utilities.css';
+  
+
+body {
+        background-color: var(--primary-color);
+
+      }
+p {
+    font-size: var(--primary-text-size);
+}
+h1,h2,h3 {
+    color: var(--secondary-color);
+/* }
+ol{
+    margin: 0%; */
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+/* .header {
+    width: 100%;
+    background-color: blue;
+} */
+img {
+    margin-right: 10px;
+}

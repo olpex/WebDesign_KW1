@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* .parents {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #725f5f;
+} */
+img {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 800px; 
+    height: 800px;
+    background-color: rgb(34, 158, 71);
+    transform: translate(-50%, -50%);
+    
+    animation: qwerty 2s ease-out infinite;
+}
+
+@keyframes qwerty {
+    0% {opacity: 0%;}
+    50% {opacity: 50%;}
+    100% {opacity: 100%;}
+}
